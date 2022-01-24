@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 9200400186491915350}
   - component: {fileID: 298071909635291949}
   - component: {fileID: 2300906019917672706}
-  - component: {fileID: -8675999407369490642}
+  - component: {fileID: 1628917046615403018}
   m_Layer: 7
   m_Name: GraphNode
   m_TagString: Untagged
@@ -96,7 +96,7 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &-8675999407369490642
+--- !u!114 &1628917046615403018
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -105,6 +105,6 @@ MonoBehaviour:
   m_GameObject: {fileID: 4894775775419186153}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 541ee314241722c4f805118e5c8976e7, type: 3}
+  m_Script: {fileID: 11500000, guid: d563aa04a601aae4b9d8b8113e7962e7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
