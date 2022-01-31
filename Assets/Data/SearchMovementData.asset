@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: SearchMovementData
   m_EditorClassIdentifier: 
   maxSpeed: 8
-  minSpeed: 1
-  maxForce: 20
+  minSpeed: 6.8
+  maxForce: 80
   orientToMovement: 1
