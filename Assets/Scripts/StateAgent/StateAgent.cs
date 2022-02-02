@@ -29,6 +29,7 @@ public class StateAgent : Agent
         else
         {
             animator.SetBool("isWalking", false);
+            Debug.Log("Stop Walking");
         }
     }
 }
