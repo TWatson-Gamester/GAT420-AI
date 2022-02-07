@@ -39,8 +39,10 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 6833079950054237314}
-  - component: {fileID: 1624212028219839803}
+  - component: {fileID: 1708193574711550735}
   - component: {fileID: 8745913061419784048}
+  - component: {fileID: 3679521738597583367}
+  - component: {fileID: 3548626317701348467}
   - component: {fileID: 1757563567511878652}
   - component: {fileID: 6833079950054237317}
   - component: {fileID: 6833079950054237318}
@@ -69,7 +71,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1624212028219839803
+--- !u!114 &1708193574711550735
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -78,10 +80,18 @@ MonoBehaviour:
   m_GameObject: {fileID: 6833079950054237336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dfd1d590ff9429d4b87cc10b3e48f186, type: 3}
+  m_Script: {fileID: 11500000, guid: c87e31bb2994cbf43a03059b48c1efeb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 8745913061419784048}
+  animator: {fileID: 3821164716441020524}
+  pathFollower: {fileID: 0}
+  enemySeen:
+    value: 0
+  health:
+    value: 0
+  timer:
+    value: 0
 --- !u!114 &8745913061419784048
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -95,6 +105,36 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movementData: {fileID: 11400000, guid: 557c05fcdd90f6c409edd052a7914d8f, type: 2}
+--- !u!114 &3679521738597583367
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6833079950054237336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c19983f879f694a4493dc87bb4de6e64, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pathNodes: {fileID: 0}
+--- !u!114 &3548626317701348467
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6833079950054237336}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41e7ad301ef687749b8d737d54372f94, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tagName: Player
+  raycastTransform: {fileID: 2577592522408292246}
+  distance: 4
+  angle: 80
+  numRaycast: 20
 --- !u!195 &1757563567511878652
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -256,5 +296,10 @@ PrefabInstance:
 --- !u!4 &7198913590638998038 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: a42fe441caacb0a44b5ad1431d71a1c7, type: 3}
+  m_PrefabInstance: {fileID: 7236462963546756605}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &3821164716441020524 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: a42fe441caacb0a44b5ad1431d71a1c7, type: 3}
   m_PrefabInstance: {fileID: 7236462963546756605}
   m_PrefabAsset: {fileID: 0}
