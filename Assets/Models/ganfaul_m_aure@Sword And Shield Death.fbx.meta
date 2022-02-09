@@ -1,37 +1,12 @@
 fileFormatVersion: 2
-guid: a42fe441caacb0a44b5ad1431d71a1c7
+guid: 6429f55338c782e489db9a4ffa73cd95
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable:
   - first:
       74: -203655887218126122
-    second: mixamo.com
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Ganfaul_Body
-    second: {fileID: 2100000, guid: 04c736631e726f943adc2554a59174c1, type: 2}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ganfaul_diffuse
-    second: {fileID: 2800000, guid: ba6018781e57e5d46bbd20e704218aa7, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ganfaul_glow
-    second: {fileID: 2800000, guid: ad248a9fc96a1ef4f93520c826d76a34, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ganfaul_normal
-    second: {fileID: 2800000, guid: 9fc6bf8fc44f1d548b10d6bb4d7f5f7f, type: 3}
-  - first:
-      type: UnityEngine:Texture2D
-      assembly: UnityEngine.CoreModule
-      name: Ganfaul_specular
-    second: {fileID: 2800000, guid: d86a0fb717c55c44d9af9398f89459ac, type: 3}
+    second: Sword And Shield Death
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
@@ -58,7 +33,36 @@ ModelImporter:
     animationWrapMode: 0
     extraExposedTransformPaths: []
     extraUserProperties: []
-    clipAnimations: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Sword And Shield Death
+      takeName: mixamo.com
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 117
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 0
   meshes:
     lODScreenPercentages: []
@@ -100,11 +104,7 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
-  referencedClips:
-  - 071d6168b87db5c4ca76fcd12d0b4fc8
-  - 0a444b4f404f36b43bbf5b82bfc67ae8
-  - 6429f55338c782e489db9a4ffa73cd95
-  - 8358e39d39744b645b3a845cb1f17ec4
+  referencedClips: []
   importAnimation: 1
   humanDescription:
     serializedVersion: 3
@@ -873,11 +873,11 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
-  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: a42fe441caacb0a44b5ad1431d71a1c7, type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
-  avatarSetup: 1
+  avatarSetup: 2
   addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 

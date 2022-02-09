@@ -30,6 +30,9 @@ public class FloatTransition : Transition
 			case Predicate.GREATER:
 				result = (parameter > condition);
 				break;
+			case Predicate.LESS_EQUAL:
+				result = (parameter <= condition);
+				break;
 			default:
 				break;
 		}
