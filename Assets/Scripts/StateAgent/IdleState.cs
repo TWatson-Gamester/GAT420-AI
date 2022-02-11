@@ -9,17 +9,14 @@ public class IdleState : State
     public override void OnEnter()
     {
         owner.timer.value = 2;
-        Debug.Log(name + " enter");
     }
 
     public override void OnExit()
     {
-        Debug.Log(name + " exit");
     }
 
     public override void OnUpdate()
     {
-        Debug.Log(name + " update");
     }
 
 }

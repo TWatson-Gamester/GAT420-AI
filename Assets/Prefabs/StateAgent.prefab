@@ -42,7 +42,7 @@ GameObject:
   - component: {fileID: 1708193574711550735}
   - component: {fileID: 8745913061419784048}
   - component: {fileID: 3679521738597583367}
-  - component: {fileID: 3548626317701348467}
+  - component: {fileID: 2179435015362721289}
   - component: {fileID: 1757563567511878652}
   - component: {fileID: 6833079950054237317}
   - component: {fileID: 6833079950054237318}
@@ -85,8 +85,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   movement: {fileID: 8745913061419784048}
   animator: {fileID: 3821164716441020524}
+  perception: {fileID: 0}
   pathFollower: {fileID: 0}
   enemySeen:
+    value: 0
+  enemyDistance:
     value: 0
   health:
     value: 0
@@ -118,7 +121,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pathNodes: {fileID: 0}
---- !u!114 &3548626317701348467
+--- !u!114 &2179435015362721289
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -127,14 +130,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 6833079950054237336}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 41e7ad301ef687749b8d737d54372f94, type: 3}
+  m_Script: {fileID: 11500000, guid: 38ccdf066b1a30746888cfa2123690af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   tagName: Player
-  raycastTransform: {fileID: 2577592522408292246}
-  distance: 4
+  distance: 5
   angle: 80
+  raycastTransform: {fileID: 2577592522408292246}
   numRaycast: 20
+  radius: 0.2
 --- !u!195 &1757563567511878652
 NavMeshAgent:
   m_ObjectHideFlags: 0
