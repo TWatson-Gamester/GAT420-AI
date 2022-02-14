@@ -6,7 +6,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class NavMeshMovement : Movement
 {
-    NavMeshAgent navMeshAgent;
+    [SerializeField] NavMeshAgent navMeshAgent;
 
     private void Start()
     {
