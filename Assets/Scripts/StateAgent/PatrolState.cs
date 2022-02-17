@@ -9,6 +9,7 @@ public class PatrolState : State
 
     public override void OnEnter()
     {
+        owner.timer.value = Random.Range(5, 10);
         owner.pathFollower.targetNode = owner.pathFollower.pathNodes.GetNearestNode(owner.transform.position);
         owner.movement.Resume();
     }

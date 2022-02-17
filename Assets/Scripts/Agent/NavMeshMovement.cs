@@ -6,7 +6,7 @@ using UnityEngine.AI;
 [RequireComponent(typeof(NavMeshAgent))]
 public class NavMeshMovement : Movement
 {
-    [SerializeField] NavMeshAgent navMeshAgent;
+    [SerializeField] public NavMeshAgent navMeshAgent;
 
     private void Start()
     {
@@ -39,6 +39,12 @@ public class NavMeshMovement : Movement
     public override void Stop()
     {
         navMeshAgent.isStopped = true;
+    }
+
+    public override Vector3 destination
+    {
+        get => navMeshAgent.destination;
+        set => navMeshAgent.destination = value;
     }
 
 }
