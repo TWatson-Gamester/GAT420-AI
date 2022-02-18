@@ -8,8 +8,11 @@ public class UtilityObject : MonoBehaviour
     public class Effector
     {
         public Need.Type type;
-        [Range(-1,1)] public float change;
+        [Range(-2,2)] public float change;
     }
+
+    public float duration;
+    public Transform location;
 
     public Effector[] effectors;
     public Dictionary<Need.Type, float> registry = new Dictionary<Need.Type, float>();

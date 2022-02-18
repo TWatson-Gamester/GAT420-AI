@@ -70,7 +70,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   movement: {fileID: 75650189756129452}
-  animator: {fileID: 0}
+  animator: {fileID: 7399926443494400464}
   perception: {fileID: 7380716427151720917}
   pathFollower: {fileID: 5423234878954356187}
   enemySeen:
@@ -316,10 +316,19 @@ PrefabInstance:
       propertyPath: m_Name
       value: skeletonzombie_t_avelange
       objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: e5b0c9d07d845a44dbc7fa949b779296, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: f395b4a7e6b7a1a49aa87c3cb02f2178, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e5b0c9d07d845a44dbc7fa949b779296, type: 3}
 --- !u!4 &3481842370909911978 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: e5b0c9d07d845a44dbc7fa949b779296, type: 3}
+  m_PrefabInstance: {fileID: 4024885790281587777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &7399926443494400464 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 5866666021909216657, guid: e5b0c9d07d845a44dbc7fa949b779296, type: 3}
   m_PrefabInstance: {fileID: 4024885790281587777}
   m_PrefabAsset: {fileID: 0}
