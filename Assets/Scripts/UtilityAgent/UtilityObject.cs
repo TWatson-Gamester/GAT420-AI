@@ -13,6 +13,7 @@ public class UtilityObject : MonoBehaviour
 
     public float duration;
     public Transform location;
+    public AudioSource effect;
     [SerializeField] MeterUI meterPrefab;
 
     public Effector[] effectors;
